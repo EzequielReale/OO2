@@ -2,29 +2,29 @@ package oo2.ejercicio18_SubteWay;
 
 public class SandwichBuilder implements Builder {
 
-	Ingrediente pan, principal, aderezo, adicional;
+	Ingrediente bread, main, sauce, additional;
 
 	@Override
-	public void setPan(Ingrediente pan) {
-		this.pan = pan;
+	public void setBread(Ingrediente bread) {
+		this.bread = bread;
 	}
 
 	@Override
-	public void setPrincipal(Ingrediente principal) {
-		this.principal = principal;
+	public void setMain(Ingrediente main) {
+		this.main = main;
 	}
 
 	@Override
-	public void setAderezo(Ingrediente aderezo) {
-		this.aderezo = aderezo;
+	public void setSauce(Ingrediente sauce) {
+		this.sauce = sauce;
 	}
 
 	@Override
-	public void setAdicional(Ingrediente adicional) {
-		this.adicional = adicional;
+	public void setAdditional(Ingrediente additional) {
+		this.additional = additional;
 	}
 	
 	public Sandwich getResult() {
-		return new Sandwich(this.pan, this.principal, this.aderezo, this.adicional);
+		return new Sandwich(this.bread, this.main, this.sauce, this.additional);
 	}
 }

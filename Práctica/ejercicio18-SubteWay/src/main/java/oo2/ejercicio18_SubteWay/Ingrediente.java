@@ -2,20 +2,20 @@ package oo2.ejercicio18_SubteWay;
 
 public class Ingrediente {
 
-	String nombre;
-	double precio;
+	String name;
+	double price;
 	
 	
-	public Ingrediente(String nombre, double precio) {
-		this.nombre = nombre;
-		this.precio = precio;
+	public Ingrediente(String name, double price) {
+		this.name = name;
+		this.price = price;
 	}
 
-	public String getNombre() {
-		return nombre;
+	public String getName() {
+		return name;
 	}
 
-	public double getPrecio() {
-		return precio;
+	public double getPrice() {
+		return price;
 	}
 }
