@@ -2,11 +2,11 @@ package oo2.ejercicio18_SubteWay;
 
 public interface Builder {
 
-	public void setBread(Ingrediente bread);
+	public void setBread(Ingredient bread);
 	
-	public void setMain(Ingrediente main);
+	public void setMain(Ingredient main);
 	
-	public void setSauce(Ingrediente sauce);
+	public void setSauce(Ingredient sauce);
 	
-	public void setAdditional(Ingrediente additional);
+	public void setAdditional(Ingredient additional);
 }

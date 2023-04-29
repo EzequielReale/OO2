@@ -2,25 +2,25 @@ package oo2.ejercicio18_SubteWay;
 
 public class SandwichBuilder implements Builder {
 
-	Ingrediente bread, main, sauce, additional;
+	Ingredient bread, main, sauce, additional;
 
 	@Override
-	public void setBread(Ingrediente bread) {
+	public void setBread(Ingredient bread) {
 		this.bread = bread;
 	}
 
 	@Override
-	public void setMain(Ingrediente main) {
+	public void setMain(Ingredient main) {
 		this.main = main;
 	}
 
 	@Override
-	public void setSauce(Ingrediente sauce) {
+	public void setSauce(Ingredient sauce) {
 		this.sauce = sauce;
 	}
 
 	@Override
-	public void setAdditional(Ingrediente additional) {
+	public void setAdditional(Ingredient additional) {
 		this.additional = additional;
 	}
 	

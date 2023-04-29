@@ -2,29 +2,29 @@ package oo2.ejercicio18_SubteWay;
 
 public class Sandwich {
 
-	Ingrediente bread, main, sauce, additional;
+	Ingredient bread, main, sauce, additional;
 
 	
-	public Sandwich(Ingrediente bread, Ingrediente main, Ingrediente sauce, Ingrediente additional) {
+	public Sandwich(Ingredient bread, Ingredient main, Ingredient sauce, Ingredient additional) {
 		this.bread = bread;
 		this.main = main;
 		this.sauce = sauce;
 		this.additional = additional;
 	}
 
-	public Ingrediente getBread() {
+	public Ingredient getBread() {
 		return bread;
 	}
 
-	public Ingrediente getMain() {
+	public Ingredient getMain() {
 		return main;
 	}
 
-	public Ingrediente getSauce() {
+	public Ingredient getSauce() {
 		return sauce;
 	}
 
-	public Ingrediente getAdditional() {
+	public Ingredient getAdditional() {
 		return additional;
 	}
 	
