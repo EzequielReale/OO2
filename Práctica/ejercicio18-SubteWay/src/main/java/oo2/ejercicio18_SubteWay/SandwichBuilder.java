@@ -2,7 +2,7 @@ package oo2.ejercicio18_SubteWay;
 
 public class SandwichBuilder implements Builder {
 
-	Ingredient bread, main, sauce, additional;
+	private Ingredient bread, main, sauce, additional;
 
 	@Override
 	public void setBread(Ingredient bread) {
