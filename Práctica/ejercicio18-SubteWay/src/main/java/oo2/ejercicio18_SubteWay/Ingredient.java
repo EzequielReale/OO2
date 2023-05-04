@@ -2,8 +2,8 @@ package oo2.ejercicio18_SubteWay;
 
 public class Ingredient {
 
-	String name;
-	double price;
+	private String name;
+	private double price;
 	
 	
 	public Ingredient(String name, double price) {
