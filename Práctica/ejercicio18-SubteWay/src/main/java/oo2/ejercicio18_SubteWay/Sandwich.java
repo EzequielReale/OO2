@@ -2,7 +2,7 @@ package oo2.ejercicio18_SubteWay;
 
 public class Sandwich {
 
-	Ingredient bread, main, sauce, additional;
+	private Ingredient bread, main, sauce, additional;
 
 	
 	public Sandwich(Ingredient bread, Ingredient main, Ingredient sauce, Ingredient additional) {
