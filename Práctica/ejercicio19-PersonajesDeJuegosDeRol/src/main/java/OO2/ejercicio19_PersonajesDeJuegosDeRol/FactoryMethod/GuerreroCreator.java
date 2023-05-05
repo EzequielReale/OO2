@@ -13,6 +13,6 @@ public class GuerreroCreator extends Factory {
 	public Personaje crearPersonaje(String nombre) {
 		List<Habilidad> habilidades = new ArrayList<>();
 		habilidades.add(new CuerpoACuerpo());
-		return new Guerrero(nombre, new ArmaduraDeAcero(), new Espada(), habilidades);
+		return new Personaje(nombre, new ArmaduraDeAcero(), new Espada(), habilidades);
 	}
 }

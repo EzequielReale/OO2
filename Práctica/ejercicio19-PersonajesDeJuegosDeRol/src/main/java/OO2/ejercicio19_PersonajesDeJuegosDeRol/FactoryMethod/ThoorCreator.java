@@ -9,7 +9,6 @@ import OO2.ejercicio19_PersonajesDeJuegosDeRol.Habilidades.ADistancia;
 import OO2.ejercicio19_PersonajesDeJuegosDeRol.Habilidades.Habilidad;
 import OO2.ejercicio19_PersonajesDeJuegosDeRol.Habilidades.LanzarRayos;
 import OO2.ejercicio19_PersonajesDeJuegosDeRol.Personajes.Personaje;
-import OO2.ejercicio19_PersonajesDeJuegosDeRol.Personajes.Thoor;
 
 public class ThoorCreator extends Factory {
 
@@ -17,6 +16,6 @@ public class ThoorCreator extends Factory {
 	public Personaje crearPersonaje(String nombre) {
 		List<Habilidad> habilidades = new ArrayList<>();
 		habilidades.add(new LanzarRayos()); habilidades.add(new ADistancia());
-		return new Thoor(nombre, new ArmaduraDeHierro(), new Martillo(), habilidades);
+		return new Personaje(nombre, new ArmaduraDeHierro(), new Martillo(), habilidades);
 	}
 }

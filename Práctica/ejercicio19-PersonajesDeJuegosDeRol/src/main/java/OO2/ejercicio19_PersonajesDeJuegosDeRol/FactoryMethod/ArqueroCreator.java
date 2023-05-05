@@ -13,6 +13,6 @@ public class ArqueroCreator extends Factory{
 	public Personaje crearPersonaje(String nombre) {
 		List<Habilidad> habilidades = new ArrayList<>();
 		habilidades.add(new ADistancia());
-		return new Arquero(nombre, new ArmaduraDeCuero(), new Arco(), habilidades);
+		return new Personaje(nombre, new ArmaduraDeCuero(), new Arco(), habilidades);
 	}
 }
